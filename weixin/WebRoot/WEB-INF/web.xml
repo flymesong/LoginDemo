@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  
+<!--   <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.20</version>
+	</dependency> -->
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CoreServlet</servlet-name>
+    <servlet-class>servlet.CoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OAuthServlet</servlet-name>
+    <servlet-class>servlet.OAuthServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OeauthServlet</servlet-name>
+    <servlet-class>servlet.OeauthServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JsonServlet</servlet-name>
+    <servlet-class>servlet.JsonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerificationServlet</servlet-name>
+    <servlet-class>servlet.VerificationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyServlet</servlet-name>
+    <servlet-class>servlet.ModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BalanceServlet</servlet-name>
+    <servlet-class>servlet.BalanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayServlet</servlet-name>
+    <servlet-class>servlet.PayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CashOutServlet</servlet-name>
+    <servlet-class>servlet.CashOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PresentOrder</servlet-name>
+    <servlet-class>servlet.PresentOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shouquan</servlet-name>
+    <servlet-class>servlet.Shouquan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InfoServlet</servlet-name>
+    <servlet-class>servlet.InfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuechaxunServlet</servlet-name>
+    <servlet-class>servlet.YuechaxunServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Chaxunmima</servlet-name>
+    <servlet-class>servlet.Chaxunmima</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginFifter</servlet-name>
+    <servlet-class>servlet.LoginFifter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginShouquanServlet</servlet-name>
+    <servlet-class>servlet.LoginShouquanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Openid_xiaoServlet</servlet-name>
+    <servlet-class>servlet.Openid_xiaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Openid_xiaoAddServlet</servlet-name>
+    <servlet-class>servlet.Openid_xiaoAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BerthCodeApply</servlet-name>
+    <servlet-class>servlet.BerthCodeApply</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CurrentOrder</servlet-name>
+    <servlet-class>servlet.CurrentOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Setberthstatus</servlet-name>
+    <servlet-class>servlet.Setberthstatus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetStatus</servlet-name>
+    <servlet-class>servlet.SetStatus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Quanzhuangtai</servlet-name>
+    <servlet-class>servlet.Quanzhuangtai</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShangBaoServlet</servlet-name>
+    <servlet-class>servlet.ShangBaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryBalance</servlet-name>
+    <servlet-class>servlet.QueryBalance</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGISParkInfo</servlet-name>
+    <servlet-class>servlet.GetGISParkInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelOrder</servlet-name>
+    <servlet-class>servlet.CancelOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UnionidServlet</servlet-name>
+    <servlet-class>servlet.UnionidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Session_key</servlet-name>
+    <servlet-class>servlet.Session_key</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Ceshi</servlet-name>
+    <servlet-class>servlet.Ceshi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InformationServlet</servlet-name>
+    <servlet-class>servlet.InformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InformationService</servlet-name>
+    <servlet-class>servlet.InformationService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Push</servlet-name>
+    <servlet-class>servlet.Push</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForgetServlet</servlet-name>
+    <servlet-class>servlet.ForgetServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- /servlet/CoreServlet用于指定Servlet的访问路径 -->
+  <servlet-mapping>
+    <servlet-name>CoreServlet</servlet-name>
+    <url-pattern>/CoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OAuthServlet</servlet-name>
+    <url-pattern>/OAuthServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OeauthServlet</servlet-name>
+    <url-pattern>/OeauthServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonServlet</servlet-name>
+    <url-pattern>/JsonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerificationServlet</servlet-name>
+    <url-pattern>/VerificationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyServlet</servlet-name>
+    <url-pattern>/ModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BalanceServlet</servlet-name>
+    <url-pattern>/BalanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayServlet</servlet-name>
+    <url-pattern>/PayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CashOutServlet</servlet-name>
+    <url-pattern>/CashOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PresentOrder</servlet-name>
+    <url-pattern>/PresentOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shouquan</servlet-name>
+    <url-pattern>/Shouquan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoServlet</servlet-name>
+    <url-pattern>/InfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YuechaxunServlet</servlet-name>
+    <url-pattern>/YuechaxunServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Chaxunmima</servlet-name>
+    <url-pattern>/Chaxunmima</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginFifter</servlet-name>
+    <url-pattern>/LoginFifter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginShouquanServlet</servlet-name>
+    <url-pattern>/LoginShouquanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Openid_xiaoServlet</servlet-name>
+    <url-pattern>/Openid_xiaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Openid_xiaoAddServlet</servlet-name>
+    <url-pattern>/Openid_xiaoAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BerthCodeApply</servlet-name>
+    <url-pattern>/BerthCodeApply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CurrentOrder</servlet-name>
+    <url-pattern>/CurrentOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Setberthstatus</servlet-name>
+    <url-pattern>/Setberthstatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetStatus</servlet-name>
+    <url-pattern>/SetStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Quanzhuangtai</servlet-name>
+    <url-pattern>/Quanzhuangtai</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShangBaoServlet</servlet-name>
+    <url-pattern>/ShangBaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryBalance</servlet-name>
+    <url-pattern>/QueryBalance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGISParkInfo</servlet-name>
+    <url-pattern>/GetGISParkInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelOrder</servlet-name>
+    <url-pattern>/CancelOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UnionidServlet</servlet-name>
+    <url-pattern>/UnionidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Session_key</servlet-name>
+    <url-pattern>/Session_key</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Ceshi</servlet-name>
+    <url-pattern>/Ceshi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InformationServlet</servlet-name>
+    <url-pattern>/InformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InformationService</servlet-name>
+    <url-pattern>/InformationService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Push</servlet-name>
+    <url-pattern>/Push</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForgetServlet</servlet-name>
+    <url-pattern>/ForgetServlet</url-pattern>
+  </servlet-mapping>
+  
+	<!-- 拦截器 -->
+	<!-- <filter>
+		<filter-name>BrowserFilter</filter-name>
+		<filter-class>filter.BrowserFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/yuechaxun.jsp</url-pattern>
+	</filter-mapping>
+	
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/dangqiandingdan.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/dingdan.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/weixnpay.jsp</url-pattern>
+	</filter-mapping><filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/wodezhanghu.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/xiugaimima.jsp</url-pattern>
+	</filter-mapping>
+	
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/yuetixian.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/zhanghuchongzhi.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/PresentOrder</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/OrderServlet</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>BrowserFilter</filter-name>
+		<url-pattern>/register.jsp</url-pattern>
+	</filter-mapping> -->
+  	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
